@@ -13,28 +13,39 @@ public:
 	URLSerializer(const char* url);
 
 	/// <summary>
-	/// вернет метод запроса
+	/// 
 	/// </summary>
+	/// <returns>HTTP method</returns>
 	HTTPMethod GetMethod();
 
 	/// <summary>
-	/// вернет URL
+	/// 
 	/// </summary>
+	/// <returns>URL</returns>
 	const std::string& GetURL();
 
 	/// <summary>
-	/// ¬ернет хост
+	/// 
 	/// </summary>
+	/// <returns>Host</returns>
 	const std::string& GetHost();
 
 	/// <summary>
-	/// вернет элементы пути запроса, если они содержатс€ в URL
+	/// 
 	/// </summary>
+	/// <param name="paramNum">parameter number</param>
+	/// <returns>HTTP path parameter</returns>
 	const std::string& GetPathParam(uint8_t paramNum);
 
 	/// <summary>
 	/// ¬ернет пары <аргумент, значение> запроса, если они содержатс€ в URL
 	/// </summary>
+
+
+	/// <summary>
+	/// 
+	/// </summary>
+	/// <returns>Query strings, if contained in the URL</returns>
 	const std::map<std::string, std::string>& GetQueryStrings();
 
 private:
@@ -45,7 +56,7 @@ private:
 	std::map<std::string, std::string> _QueryStrings;
 
 	/// <summary>
-	/// –азобьет строку на подстроки по указанному разделителю
+	/// Split the string into substrings according to the specified delimiter
 	/// </summary>
 	static std::vector<std::string> Split(std::string& str, char del);
 
