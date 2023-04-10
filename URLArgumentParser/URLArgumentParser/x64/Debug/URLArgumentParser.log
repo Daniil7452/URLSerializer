@@ -1,0 +1,4 @@
+﻿  URLSerializer.cpp
+C:\Users\daniil\Desktop\education\C++\URLArgumentParser\URLArgumentParser\URLSerializer.cpp(55,41): warning C4267: =: преобразование из "size_t" в "uint8_t"; возможна потеря данных
+C:\Users\daniil\Desktop\education\C++\URLArgumentParser\URLArgumentParser\URLSerializer.cpp(35): warning C4715: URLSerializer::GetMethod: значение возвращается не при всех путях выполнения
+  URLArgumentParser.vcxproj -> C:\Users\daniil\Desktop\education\C++\URLArgumentParser\x64\Debug\URLArgumentParser.exe
