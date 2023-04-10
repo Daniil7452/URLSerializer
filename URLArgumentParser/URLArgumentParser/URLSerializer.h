@@ -38,11 +38,6 @@ public:
 	const std::string& GetPathParam(uint8_t paramNum);
 
 	/// <summary>
-	/// Вернет пары <аргумент, значение> запроса, если они содержатся в URL
-	/// </summary>
-
-
-	/// <summary>
 	/// 
 	/// </summary>
 	/// <returns>Query strings, if contained in the URL</returns>
